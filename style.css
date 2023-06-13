@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* class communes */
+
+.d-flex {
+    display: flex;
+}
+
+.absolute {
+    position: absolute
+}
+
+.relative {
+    position: relative;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.m-top-bottom {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.w-100 {
+    width: 100px;
+}
+
+
+
+/* Fin classs communes */
+
+/* header */
+
+header {
+    padding-top: 10px;
+}
+
+/* Fin header */
+
+/* Landing page */
+
