@@ -28,6 +28,7 @@ a {
 
 .century {
     font-family: SansSerifBookFLF;
+    font-size: 20px;
 }
 
 /* Fin font */
@@ -54,6 +55,10 @@ a {
     justify-content: center;
 }
 
+.text-end {
+    text-align: end;
+}
+
 .align-center {
     align-items: center;
 }
@@ -73,6 +78,10 @@ a {
 
 .m-auto  {
     margin: auto;
+}
+
+.m-t-10 {
+    margin-top: 100px;
 }
 
 .w-100 {
@@ -114,6 +123,27 @@ li {
     height: 600px;
 }
 
+h1 {
+    background: rgb(149,159,192);
+    background: linear-gradient(200deg, rgba(149,159,192,1) 0%, rgba(212,121,175,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    transition-property: all;
+}
+
+#t1 {
+    display: block;
+}
+
+#t2 {
+    display: none;
+}
+
+#t3 {
+    display: none;
+}
+
 /* Fin landing page */
 
 /* Infographies */
@@ -144,11 +174,13 @@ li {
     height: 500px;
 }
 
-#text {
-    padding: 0 10%;
+.m-right {
+    margin-right: 100px;
 }
 
 /* Fin texte */
+
+/* Footer */
 
 footer {
     height: 300px;
@@ -156,5 +188,14 @@ footer {
     padding-bottom: 10px;
 }
 
-/* Footer */
+.margin-footer {
+    margin-top: 60px;
+}
 
+.margin-social {
+    margin-right: 30px;
+}
+
+.size-social {
+    width: 30px;
+}
