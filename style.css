@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding-left: 30px;
     padding-right: 30px;
@@ -101,6 +105,7 @@ a {
 }
 
 
+
 /* Fin classs communes */
 
 /* header */
@@ -152,6 +157,16 @@ h1 {
     height: 1000px;
 }
 
+.scale {
+	transition: .3s;
+}
+
+.scale :hover {
+	transform: scale(1.4);
+	transition: .3s;
+    z-index: 1;
+}
+
 #info1 {
     right: 10%;
 }
@@ -167,6 +182,12 @@ h1 {
 }
 
 /* Fin infograhpies */
+
+/* ChartJS */
+
+#myChart {
+    width: 150px; 
+}
 
 /* Texte */
 
@@ -198,4 +219,61 @@ footer {
 
 .size-social {
     width: 30px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 700px){
+    
+    /* Partie infographie */
+
+    #info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .scale {
+        position: relative;
+    }
+
+    #info1 {
+        right: 0;
+    }
+    
+    #info2 {
+        top: 0;
+        left: 0;
+    }
+    
+    #info3 {
+        top: 0;
+        right: 0;
+    }
+
+    /* Fin partie infographie  */
+
+    /* Texte */
+
+    #asso {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    #text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #text div {
+        margin-right: 0;
+    }
 }
