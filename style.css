@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  
+  overflow-x: hidden;
 }
 
 a {
@@ -47,7 +47,7 @@ a {
 }
 
 .absolute {
-    position: absolute
+    position: absolute;
 }
 
 .space-between {
@@ -70,10 +70,6 @@ a {
     flex-direction: column;
 }
 
-.w-100 {
-    width: 100%;
-}
-
 .m-top-bottom {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -85,6 +81,10 @@ a {
 
 .m-t-10 {
     margin-top: 100px;
+}
+
+.w-max {
+    width: 100%;
 }
 
 .w-100 {
@@ -103,7 +103,13 @@ a {
     align-items: end;
 }
 
+.z5 {
+    z-index: 5;
+}
 
+.white {
+    color: white;
+}
 
 /* Fin classs communes */
 
@@ -113,12 +119,26 @@ header {
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    background-color: #F6BFD9;
+}
+
+#fond-logo {
+    width: 200px;
+    left: -20px;
+    top: -30px;
 }
 
 li {
     list-style: none;
     margin-left: 50px;
     margin-top: 15px;
+}
+
+#fond-menu {
+    width: 300px;
+    transform: rotate(30deg);
+    top: -120px;
+    right: -25px;
 }
 
 /* Fin header */
@@ -128,7 +148,7 @@ li {
 #landing {
     height: 600px;
     background-color: #F6BFD9;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     margin-right: 0;
 }
 
@@ -161,6 +181,8 @@ h1 {
     height: 1000px;
     padding-left: 30px;
     padding-right: 30px;
+    background-color: #F6BFD9;
+
 }
 
 .scale {
@@ -174,18 +196,41 @@ h1 {
 }
 
 #info1 {
-    right: 10%;
+    width: 40rem;
+    right: 3%;
+}
+
+#fond-info1 {
+    width: 900px;
+    right: 3%;
+    top: -50px;
+    transform: translateX(15%);
+}
+
+#pastille1 {
+    width: 250px;
+    transform: rotate(45deg);
 }
 
 #info2 {
-    top: 250px;
-    left: 10%;
+    width: 500px;
+    top: 500px;
+    left: 3%;
 }
 
-#info3 {
-    top: 500px;
-    right: 25%;
+#fond-info2 {
+    width: 800px;
+    left: -9%;
+    top: 400px;
+    transform: translateX(20%);
+    transform: rotate(20deg);
 }
+ #pastille2 {
+    width: 250px;
+    top: 600px;
+    right: 3%;
+    transform: rotate(145deg);
+ }
 
 /* Fin infograhpies */
 
@@ -194,6 +239,7 @@ h1 {
 #chart {
     padding-left: 30px;
     padding-right: 30px;
+    background-color: #F6BFD9;
 }
 
 #myChart {
@@ -206,10 +252,15 @@ h1 {
     height: 500px;
     padding-left: 30px;
     padding-right: 30px;
+    background-color: #F6BFD9;
 }
 
 .m-right {
     margin-right: 100px;
+}
+
+.justify {
+    text-align: justify;
 }
 
 /* Fin texte */
@@ -218,10 +269,11 @@ h1 {
 
 footer {
     height: 300px;
-    margin-top: 100px;
+    padding-top: 100px;
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    background-color: #F6BFD9;
 }
 
 .margin-footer {
@@ -242,13 +294,13 @@ footer {
     
     /* Partie infographie */
 
-    #info {
+    /* #info { 
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         height: auto;
-        margin-bottom: 50px;
+        padding-bottom: 50px;
     }
 
     .scale {
@@ -277,7 +329,7 @@ footer {
         display: flex;
         flex-direction: column;
         height: auto;
-        margin-top: 50px;
+        padding-top: 50px;
     }
 
     #text {
