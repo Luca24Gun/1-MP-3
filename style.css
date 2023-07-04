@@ -119,7 +119,7 @@ header {
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #F6BFD9;
+    background-color: #FADAEA;
 }
 
 #fond-logo {
@@ -147,7 +147,7 @@ li {
 
 #landing {
     height: 600px;
-    background-color: #F6BFD9;
+    background-color: #FADAEA;
     padding-bottom: 20px;
     margin-right: 0;
 }
@@ -181,18 +181,8 @@ h1 {
     height: 1000px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #F6BFD9;
+    background-color: #FADAEA;
 
-}
-
-.scale {
-	transition: .3s;
-}
-
-.scale :hover {
-	transform: scale(1.4);
-	transition: .3s;
-    z-index: 1;
 }
 
 #info1 {
@@ -239,7 +229,7 @@ h1 {
 #chart {
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #F6BFD9;
+    background-color: #FADAEA;
 }
 
 #myChart {
@@ -252,7 +242,7 @@ h1 {
     height: 500px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #F6BFD9;
+    background-color: #FADAEA;
 }
 
 .m-right {
@@ -273,7 +263,7 @@ footer {
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #F6BFD9;
+    background-color: #FADAEA;
 }
 
 .margin-footer {
@@ -290,35 +280,49 @@ footer {
 
 /* Responsive */
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 850px){
+
+    body {
+        overflow-x: hidden;
+    }
     
     /* Partie infographie */
 
-    /* #info { 
+    #info { 
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: auto;
+        height: 1100px;
         padding-bottom: 50px;
     }
 
-    .scale {
-        position: relative;
+    #pastille1 {
+        display: none;
+    }
+
+    #pastille2 {
+        display: none;
+    }
+
+    #fond-info1 {
+        width: 110%;
     }
 
     #info1 {
-        right: 0;
+        width: 80%;
+        top: -1%;
+    }
+
+    #fond-info2 {
+        width: 100%;
+        top: 37%;
     }
     
     #info2 {
-        top: 0;
-        left: 0;
-    }
-    
-    #info3 {
-        top: 0;
-        right: 0;
+        width: 65%;
+        top: 43%;
+        left: 60px;
     }
 
     /* Fin partie infographie  */

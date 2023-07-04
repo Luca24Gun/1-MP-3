@@ -2,10 +2,8 @@
 
 texte = new Array();
 texte[0] = '"Décolleté seins luisants MIAM !"';
-texte[1] = '"Ça sent le feuj !"';
-texte[2] = '"Grosse pédale !"';
-texte[3] = '"Sous race !"';
-texte[4] = '"Pas mal les bzez"';
+texte[1] = '"Pas mal les bzez"';
+texte[2] = '"belles jambes"'
 nb=-1;
 function change()
 {
@@ -26,7 +24,7 @@ const data = {
         label: 'Les différentes manifestations de la haine en ligne en 2023',
         data: [22, 20, 12, 45],
         fill: true,
-        backgroundColor: ['#959fc0', '#d479af', '#E6007E', '#F6BFD9'],
+        backgroundColor: ['#959fc0', '#d479af', '#E6007E', '#AF4693'],
         borderColor: 'rgba(255, 255, 255, 0)',
     }]
 };
